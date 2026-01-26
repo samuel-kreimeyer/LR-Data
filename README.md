@@ -1,13 +1,15 @@
+# LR-Data
+
 Little Rock Property Research
 ===========================
 
 This repository holds the scripts used to retrieve and analyze basic statistical information
 concerning real estate within the limits of the city of Little Rock. Data is stored in an
-SQlite database (chosen for ease of implementation). This repository is essentially a collection
+SQLite database (chosen for ease of implementation). This repository is essentially a collection
 of tools used in the analysis of property data for one location from a specific sources.
 Thus, a reader hoping to use these tools for the purpose of mapping property valuation patterns
 or detecting anomalies in a location other than Little Rock will not be able to use them
-immediately. However. the code may be instructive toward solving similar problems in other
+immediately. However, the code may be instructive toward solving similar problems in other
 locations.
 
 Public records may not have utility equal to proprietary and expensive realtor databases,
@@ -51,7 +53,7 @@ hexplot - Creates .png images of hex bin plots broken down by zoning code, and f
 down by specific metrics (appraised value, appraised value per acre and ratio of appraised
 and assessed values). Colormapping makes large-scale trends very easy to visualize
 
-hist_plotter - Creates .png images of histogram plots boken down by zoning code and further
+hist_plotter - Creates .png images of histogram plots broken down by zoning code and further
 broken down by specific metrics.
 
 intloader - Recasts PAGIS data stored in SQLite into more appropriate numerical types (INT/FLOAT)
